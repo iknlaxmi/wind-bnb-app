@@ -1,0 +1,56 @@
+.NavCard {
+  /* display: flex;
+  flex-wrap: wrap;*/
+  /* width: 10vmax;  */
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 50px;
+}
+.NavCard > img {
+  /* width: 20vmax; */
+  border-radius: 20px;
+  height: 269px;
+  width: 385px;
+}
+p {
+  color: black;
+}
+.checked {
+  color: rgb(255, 21, 0);
+  font-size: 20px;
+}
+.card_container {
+  display: flex;
+  margin: 5px;
+  /* padding: 10px; */
+  justify-content: space-between;
+  flex-direction: row;
+  width: 385px;
+  color: gray;
+  font-size: 15px;
+  /* font-weight: 2px; */
+}
+.card_container > div {
+  margin: 6px;
+}
+.end_item {
+  /* margin-left: 80px;
+  padding-left: 10px; */
+
+  align-self: flex-end;
+}
+.superhost {
+  border: solid gray;
+  border-radius: 8px;
+  line-height: 15px;
+  font-size: 12px;
+  justify-content: center;
+  width: 75px;
+  align-items: center;
+  height: 15px;
+  padding: 5px;
+  color: black;
+  border-width: 1px;
+  font-weight: bold;
+}
